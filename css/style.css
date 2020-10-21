@@ -2,22 +2,30 @@ html,body{
 
     height: 100%;
     width:100%;
-    color: white;
+    color: black;
+    background-color: black;
 
+}
+
+.navbar-custom {
+    background-color: black !important;
 }
 
 .top{
-    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url("../img/MITBackgroundCropped.jpeg");
-    background-attachment: fixed;
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-color: black;
+    background-image:linear-gradient(rgba(100, 100, 100, 0.1),rgba(0,0,0,0.7)), url("../img/grad_pic_enhanced_transparent_background.png");
+   /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: contain;
+   /* background-size: cover; */
     font-family: Arial, Helvetica, sans-serif;
 }
 .top-projects {
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url("../img/Skylinebackground.jpg");
-    background-attachment: fixed;
+    /* background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url("../img/Skylinebackground.jpg"); */
+    /* background-attachment: fixed; */
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-color: black;
+    /* background-size: cover; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -104,3 +112,24 @@ html,body{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+  .top-contact{
+    background-color: black;
+  }
+
+  .custom-rounded {
+    border-radius:1.5rem!important
+}
+
+.card-img-top {
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.363), 0 4px 8px rgba(255, 255, 255, 0.205);
+  /* text-decoration: underline; */
+}
